@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Callum Kent</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+@{
+    string pageName = ViewData["Title"].ToString();
+ } 
+<body class="">
+    <header>
+        <nav class="navbar navbar-expand-md navbar-toggleable-sm navbar-dark color-nice border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand @(pageName == "Home" ? "text-decoration-underline" : "")" style="font-size:30px;" asp-area="" asp-controller="Home" asp-action="Index">Callum Kent</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse">
+                    <ul class="navbar-nav ms-auto" style="font-size:22px">
+                        <li class="nav-item px-3">
+                            <a class="nav-link @(pageName=="About" ? "text-decoration-underline text-white":"")" asp-area="" asp-controller="About" asp-action="Index">About</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link @(pageName=="Projects" ? "text-decoration-underline text-white":"")" asp-area="" asp-controller="Projects" asp-action="Index">Projects</a>
+                        </li>
+                        <li class="px-2">
+                            <a href="mailto: callum.kent1@myport.ac.uk">
+                                <img src="https://img.icons8.com/material-outlined/48/ffffff/mail.png" />
+                            </a>
+                        </li>
+                        <li class="px-2">
+                            <a href="https://www.linkedin.com/in/callumkent/" target="_blank">
+                                <img src="https://img.icons8.com/material-outlined/48/ffffff/linkedin--v1.png" />
+                            </a>
+                        </li>
+                        <li class="px-2">
+                            <a href="https://github.com/Wallingford123" target="_blank">
+                                <img src="https://img.icons8.com/material-outlined/48/ffffff/github.png" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container py-2">
+            <div class="row">
+                <div class="col text-center" style="line-height:2rem">
+                    <h5>Site</h5>
+                    <a class="white-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a><br />
+                    <a class="white-link" asp-area="" asp-controller="About" asp-action="Index">About</a><br />
+                    <a class="white-link" asp-area="" asp-controller="Projects" asp-action="Index">Projects</a><br />
+                </div>
+                <div class="col text-center" style="line-height:2rem;">
+                    <h5>Links</h5>
+                    <a class="white-link" href="mailto: callum.kent1@myport.ac.uk">Email Me</a><br />
+                    <a class="white-link" href="https://www.linkedin.com/in/callumkent/" target="_blank">LinkedIn</a><br />
+                    <a class="white-link" href="https://github.com/Wallingford123" target="_blank">GitHub</a>
+                </div>
+                <div class="col-md text-center">
+                    <a href="https://icons8.com/icon/85141/linkedin">LinkedIn</a>
+                    ,
+                    <a href="https://icons8.com/icon/106562/github">GitHub</a>
+                    And
+                    <a href="https://icons8.com/icon/86840/mail">Mail</a>
+                    Icons by
+                    <a href="https://icons8.com/">Icon8</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,62 @@
+﻿@model IEnumerable<PortfolioProject.Models.ProjectModel>
+
+@{
+    ViewData["Title"] = "Projects";
+}
+<div class="container-fluid">
+
+    @{int i = 0;
+        @foreach (var item in Model)
+        {
+            <div class="row border-color-nice py-5" style="min-height: 400px;">
+                @if (i % 2 == 0)
+                {
+                    <div class="col-md-6" style="padding-right:30px">
+                        <div class="divider" align="left"></div>
+                        <h1 class="text-color-nice text-center">@Html.Raw(item.title)</h1>
+                        <p style="font-size:20px">
+                            @Html.Raw(item.description)
+                        </p>
+                    </div>
+                    <div class="col-md-6" style="padding-left: 30px; display: flex; align-items: center; justify-content: center;">
+                        @if(item.contentType=="v"){
+                            <iframe style=" width:560px; height:315px" class="" src="@item.contentURL"></iframe>
+                        }
+                        else if(item.contentType=="i") {
+                            <img src="@item.contentURL"style="width:560px; height:315px; max-width:100%; height:auto;" class="img-fluid"/>
+                        }
+                    </div>
+                }
+                else
+                {
+                        <div class="col-md-6 d-none d-md-flex" style="padding-right:30px; padding-top:40px; display:flex; align-items: center; justify-content:center;">
+                            @if(item.contentType == "v"){
+                                <iframe style=" width:560px; height:315px" class="" src="@item.contentURL"></iframe>
+                            }
+                            else if(item.contentType=="i") {
+                        <img src="@item.contentURL" style="width:560px; height:315px; max-width:100%; height:auto;" class="img-fluid" />
+                            }
+                        </div>
+
+                        <div class="col-md-6" style="padding-left: 30px; align-items: center; justify-content: center;">
+                            <div class="divider"></div>
+                            <h1 class="text-color-nice text-center">@Html.Raw(item.title)</h1>
+                            <p style="font-size: 20px">
+                                @Html.Raw(item.description)
+                            </p>
+                        </div>
+
+                        <div class="col-md-6 d-flex d-md-none" style="display: flex; align-items: center; justify-content: center;">
+                            @if(item.contentType == "v"){
+                                <iframe style=" width:560px; height:315px" class="" src="@item.contentURL"></iframe>
+                            }
+                            else if(item.contentType=="i") {
+                        <img src="@item.contentURL" style="width:560px; height:315px; max-width:100%; height:auto;" class="img-fluid" />
+                            }
+                        </div>
+                }
+            </div>
+            i++;
+        }
+    }
+</div>

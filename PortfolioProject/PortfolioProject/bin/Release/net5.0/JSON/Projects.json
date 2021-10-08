@@ -1,0 +1,64 @@
+{
+  "Projects": [
+    {
+      "title": "ASP.NET Portfolio Website",
+      "description": "This website!\nThe technologies I have used are: \n ASP.NET Core, Razor, CSS + Bootstrap and JSON. \n\nThe website should be fully responsive to different aspect ratios and resolutions. This projects page is generated from a JSON file and converted into HTML, alternating the side of the image and text if the viewport is big enough. \n\n You can find the source on <a href=\"https://github.com/Wallingford123\">GitHub</a> soon.",
+      "contentURL": "/images/website.jpg",
+      "contentType": "i"
+    },
+    {
+      "title": "Ludum Dare 48 Jam: \nDiggyDiggyMole",
+      "description": "Game created for the latest Ludum Dare as a team of 2 over 72 hours. Goal is to go as far as you can and pick up gold for upgrades along the way to help get further.\n\n <div class=\"text-center\" style=\"font-size:20px\"><a href=\"https://ldjam.com/events/ludum-dare/48/diggy-diggy-mole\">Ludum Dare Submission</a> \n <a class=\"text-center\" href=\"https://awildekans.itch.io/diggy-diggy-mole\">Play</a></div>",
+      "contentURL": "https://static.jam.vg/raw/010/43/z/3d878.png",
+      "contentType": "i"
+    },
+    {
+      "title": "Virtual Reality Terrain Editor",
+      "description": "Create and export terrain, all in Virtual Reality! Key Features: \n - World space menus to suit VR \n - Different brush types and sizes \n - Exporting to .OBJ \n - Left/Right handed modes \n \n You can find the source on <a href=\"https://github.com/Wallingford123/VRTE\">GitHub</a>.",
+      "contentURL": "/v/S5rtjrhLiaY",
+      "contentType": "v"
+    },
+    {
+      "title": "Royal Navy Firefighting Project",
+      "description": "As a group of 5, we were tasked by the Royal Navy to develop a first-response firefighting training/practice tool in VR.\n\nI was tasked with implementing all VR elements and interactions, the dynamic hoses, importing 3D models (as we used Collaborate and ran out of seats), and various small things.\n\nAs this project was for the Royal Navy, source code is unavailable.",
+      "contentURL": "/v/g9TmHZcoIsU",
+      "contentType": "v"
+    },
+    {
+      "title": "Dungeon Generation Demo",
+      "description": "\nAs part of my final year project, I developed a dungeon generation tool that utilises:\n- Growing Tree\n- Delaunay Triangulation\n- Minimum Spanning Tree\n\nThe demo has some parameters that can be adjusted to create different results (on top of the already random nature of it of course!).\n\nYou can find the source on <a href=\"https://github.com/Wallingford123/Dungeon-Generation-Demo\">GitHub</a>.",
+      "contentURL": "/v/oPP6AsAhAZA",
+      "contentType": "v"
+    },
+    {
+      "title": "A* Pathfinding Demo",
+      "description": "My implementation of A* and flocking behaviours to control RTS units, including weighted tiles (Red tiles bad, green tiles good!).\n\nYou can find the source on <a href=\"https://github.com/Wallingford123/AS-Pathfinding\">GitHub</a>.",
+      "contentURL": "/v/7Cfn6MpYvXw",
+      "contentType": "v"
+    },
+    {
+      "title": "El' Sacrificio",
+      "description": "A mobile game made for the 2019 UOP game jam as a team of 4.\nFunctions very similar to a clicker game but with additional steps (for better or worse).\n\nThe goal is to sacrifice animals to your god and collect the blood, and in return he grants you the ability to spend blood to upgrade and earn more blood!",
+      "contentURL": "/v/tA97b8m6Wxo",
+      "contentType": "v"
+    },
+    {
+      "title": "Replevy'in",
+      "description": "A game jam project completed in a team of 3.\n\nYou play as David L. Levy and save the children from kidnappers, bullys and general wandering off alone. Keep them out of harm's way by throwing them into a safe area! Though throwing them can be a little rough...\n\nYou can find the source on <a href=\"https://github.com/Wallingford123/GameJam2018-Replevyin\">GitHub</a>.",
+      "contentURL": "/v/lSv-WxCx4iE",
+      "contentType": "v"
+    },
+    {
+      "title": "Space Trash",
+      "description": "A game made as part of my course at the University of Portsmouth. We were given no guidance other than 'Make a game using C++ and DX11'. This is the result of that statement. A spaceship flying through a tunnel and collecting green trash cubes. It even has sound, albeit very annoying! \n\nYou can find the source on <a href=\"https://github.com/Wallingford123/DX11-Space-Trash\">GitHub</a>.",
+      "contentURL": "/v/Zpvgyc5yAt8",
+      "contentType": "v"
+    },
+    {
+      "title": "Propbox",
+      "description": "Named propbox to shorten Prop Sandbox (which would be generous), this game is just a demonstration of my own implementation of Quaternions.\n\nI gamified it by hiding objects in a maze and have you match rotation, position and scale to win. The positions of the objects in the maze changes each time, so good luck finding them without using the cheat codes!\n\nYou can find the source on <a href=\"https://github.com/Wallingford123/Propbox\">GitHub</a>.",
+      "contentURL": "/v/BvdOqzdRWkE",
+      "contentType": "v"
+    }
+  ]
+}
