@@ -6173,11 +6173,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Wallu\\source\\repos\\PortfolioProject\\PortfolioProject\\PortfolioProject.csproj",
+      "projectUniqueName": "C:\\Users\\Wallu\\source\\repos\\Portfolio-Site\\PortfolioProject\\PortfolioProject\\PortfolioProject.csproj",
       "projectName": "PortfolioProject",
-      "projectPath": "C:\\Users\\Wallu\\source\\repos\\PortfolioProject\\PortfolioProject\\PortfolioProject.csproj",
+      "projectPath": "C:\\Users\\Wallu\\source\\repos\\Portfolio-Site\\PortfolioProject\\PortfolioProject\\PortfolioProject.csproj",
       "packagesPath": "C:\\Users\\Wallu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Wallu\\source\\repos\\PortfolioProject\\PortfolioProject\\obj\\",
+      "outputPath": "C:\\Users\\Wallu\\source\\repos\\Portfolio-Site\\PortfolioProject\\PortfolioProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Visual Studio\\Shared\\NuGetPackages",

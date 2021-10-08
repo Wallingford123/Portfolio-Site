@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OH+IFVKLjOxPX8wLkwfccGp/8uEuHglP9q8VuXLobYqMP6joDf7dW4Mfpqra20IjKIL+JjuQiBfn2l+r1xH3zQ==",
+  "dgSpecHash": "hhhyxV19WfVRJ9VnCgaPlP9tFx0Y2+Pg1ixGTVaVAC2vxCfHKlyxBTa67GGnRF52o6SG8dRlNWqPWdLbsZ5PpA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Wallu\\source\\repos\\PortfolioProject\\PortfolioProject\\PortfolioProject.csproj",
+  "projectFilePath": "C:\\Users\\Wallu\\source\\repos\\Portfolio-Site\\PortfolioProject\\PortfolioProject\\PortfolioProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wallu\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\Wallu\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

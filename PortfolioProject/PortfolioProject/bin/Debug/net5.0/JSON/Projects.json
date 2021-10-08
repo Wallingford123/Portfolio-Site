@@ -2,13 +2,13 @@
   "Projects": [
     {
       "title": "Very Stable Nuclear Reactor That Definitely Won't Blow Up",
-      "description": "Ludum Dare 49 Game Jam \n Theme: Unstable\n\n For this game jam we made a nuclear power builder game, inspired by Cities Skyline and the Bigger Reactors mod from minecraft. The goal is to build your reactor piece by piece, use or sell your power for cash or research to continue your expansion.\n\n<div class=\"text-center\" style=\"font-size:20px\"><a href=\"https://ldjam.com/events/ludum-dare/49/very-stable-nuclear-reactor-that-definitely-wont-blow-up\">Ludum Dare Submission</a> | <a class=\"text-center\" href=\"https://awildekans.itch.io/diggy-diggy-mole\">Play</a></div>",
+      "description": "Ludum Dare 49 Game Jam \n Theme: Unstable\n\n For this game jam we (2-person team) made a nuclear power builder game, inspired by Cities Skyline and the Bigger Reactors mod from minecraft. The goal is to build your reactor piece by piece, use or sell your power for cash or research to continue your expansion.\n\n<div class=\"text-center\" style=\"font-size:20px\"><a href=\"https://ldjam.com/events/ludum-dare/49/very-stable-nuclear-reactor-that-definitely-wont-blow-up\">Ludum Dare Submission</a> | <a class=\"text-center\" href=\"https://awildekans.itch.io/diggy-diggy-mole\">Play</a></div>",
       "contentURL": "/images/game.jpg",
       "contentType": "i"
     },
     {
       "title": "ASP.NET Portfolio Website",
-      "description": "This website!\nThe technologies I have used are: \n ASP.NET Core, Razor, CSS + Bootstrap and JSON. \n\nThe website should be fully responsive to different aspect ratios and resolutions. This projects page is generated from a JSON file and converted into HTML, alternating the side of the image and text if the viewport is big enough. \n\n You can find the source on <a href=\"https://github.com/Wallingford123/Portfolio-Site\">GitHub</a> soon.",
+      "description": "This website!\nThe technologies I have used are: \n ASP.NET Core, Razor, CSS + Bootstrap and JSON. \n\nThe website should be fully responsive to different aspect ratios and resolutions. This projects page is generated from a JSON file and converted into HTML, alternating the side of the image and text if the viewport is big enough. \n\n You can find the source on <a href=\"https://github.com/Wallingford123/Portfolio-Site\">GitHub</a>",
       "contentURL": "/images/website.jpg",
       "contentType": "i"
     },
